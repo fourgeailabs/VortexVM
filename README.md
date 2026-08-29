@@ -1,6 +1,6 @@
-# Vectras VM Android
+# VortexVM Android
 
-**Vectras VM** is a high-performance virtual machine manager and control dashboard engineered for running Windows 11, Windows 10, Linux, and custom guest operating systems directly on Android devices with optimized resource allocation and hardware acceleration.
+**VortexVM** is a high-performance virtual machine manager and control dashboard engineered for running Windows 11, Windows 10, Linux, and custom guest operating systems directly on Android devices with optimized resource allocation and hardware acceleration.
 
 Created by **FourgeAI LABS** ([https://github.com/fourgeailabs](https://github.com/fourgeailabs)).
 
