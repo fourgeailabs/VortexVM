@@ -2,5 +2,7 @@
   "name": "VortexVM",
   "description": "High-performance Android Virtual Machine manager & dashboard with Windows 11 support, hardware acceleration, resource allocation, and integrated file system management.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }
