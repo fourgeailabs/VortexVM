@@ -22,6 +22,6 @@ dependencyResolutionManagement {
   }
 }
 
-rootProject.name = "Vectras VM"
+rootProject.name = "VortexVM"
 
 include(":app")

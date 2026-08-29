@@ -22,30 +22,31 @@ Created by **FourgeAI LABS** ([https://github.com/fourgeailabs](https://github.c
 - **Hardware Acceleration & Resource Allocation**:
   - Native Linux kernel KVM detection (`/dev/kvm`).
   - Granular CPU thread pinning and governor tuning (Performance, Schedutil).
-  - Dynamic memory allocation (4GB–16GB) with dynamic ZRAM swap configuration.
+  - Dynamic memory allocation (up to 12GB RAM) with dynamic ZRAM swap configuration.
   - Audio backend selection (AAudio, OpenSL ES, PulseAudio).
 
 - **Integrated File System Management**:
   - Virtual Disk Manager: Create, resize, compress `.qcow2` and `.img` drive images.
-  - Host-to-Guest Shared Storage Mapping: Pass Android storage folders (`/sdcard/VectrasShared`) into guest OS (`Z:\Shared`).
+  - Host-to-Guest Shared Storage Mapping: Pass Android storage folders (`/sdcard/VortexShared`) into guest OS (`Z:\Shared`).
   - Virtual Transfer Bridge for seamless file imports and exports.
 
 ---
 
 ## 📱 App Version
 
-- **Current Version**: `1.00.00`
-- **Application ID**: `com.fourgeailabs.vectrasvm`
+- **Current Version**: `1.02.00`
+- **Application ID**: `com.fourgeailabs.vortexvm`
 
 ---
 
-## 📋 What's New in Version 1.00.00
+## 📋 What's New in Version 1.02.00
 
-### Release Notes (v1.00.00)
-- **Initial Major Release**:
-  - Full support for Windows 11 ARM64/x86_64 virtualization templates with TPM 2.0 bypass.
-  - Implemented real-time Guest Power Control Dashboard (Power, Suspend, Reset, Pause).
-  - Integrated KVM Hardware Acceleration & VirGL 3D graphics pipeline.
+### Release Notes (v1.02.00)
+- **Engine & Performance Updates**:
+  - Full support for 12GB RAM allotment across virtual machine profiles and guest engine slider settings.
+  - Implemented display cutout hole punch edge-to-edge layout support.
+  - Refreshed Vortex Cyber-Neon UI theme with glassmorphic cards and dynamic telemetry.
+  - Integrated KVM Hardware Acceleration & VirGL 3D graphics pipeline with Mesa Turnip Vulkan 1.3 drivers.
   - Integrated File System Manager for QCOW2 image manipulation and shared folder mapping.
   - Added "What's New" expandable accordions with historical update logging.
   - Added About page referencing **FourgeAI LABS** ([https://github.com/fourgeailabs](https://github.com/fourgeailabs)).
